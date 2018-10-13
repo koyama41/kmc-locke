@@ -5,111 +5,111 @@
 Reply-To: locke@fujita.kuee.kyoto-u.ac.jp
       To: "Locke-ML" <locke@fujita.kuee.kyoto-u.ac.jp>
 
-���R�i�L���x�ɒ��ɉ�����Ă񂾂��j�ł��B
-���[���u�b�N�̂W���P�V���C���ł��ȉ���URL�ɒu���܂����B
+横山（有給休暇中に何やってんだか）です。
+ルールブックの８月１７日修正版を以下のURLに置きました。
 http://webclub.kcom.ne.jp/mc/yokoyama/Locke/Rulebook/
-�������̂�����͂����������B
+ご興味のある方はご覧下さい。
 
-����̕ύX�_�F
+今回の変更点：
 
-(1) ���t�@�����X�̕����R�[�h��ϊ�����
-�@����܎��Ɋ��ӂ������܂��B
-�@�֑��F�����������X�N���v�g�ł͂P�s�ɕ����̃��t�@�����X�������
-�@���܂��ϊ��ł��Ȃ��悤�ł��B�i�K���ɉ��s���ĉ�����܂����j
+(1) リファレンスの文字コードを変換した
+　こやま氏に感謝いたします。
+　蛇足：いただいたスクリプトでは１行に複数のリファレンスがあると
+　うまく変換できないようです。（適当に改行して回避しました）
 
-(2) �T�́A�P�O�͂ɂ�����u���o�v�ɂ��āA���o�ɂ�����Ȃ����̂�
-�@�x�����u�A�D�i����U���j�A�Í��R�m�c�A����уr�[���L���m�����ڑ��b��
-�Ƃ����B
+(2) ５章、１０章における「幻覚」について、幻覚にかからないものを
+　警戒装置、船（特殊攻撃）、暗黒騎士団、およびビームキャノン搭載装甲車
+とした。
 
-�p�P�F���ꂾ���ł��傤���H
+Ｑ１：これだけでしょうか？
 
-(3) �P�Q�͂ɂ����āA�r�[���L���m�����ڑ��b�Ԃ̎d�l���A
-�@�ϋv�́��Q�O�A���큁�r�[���L���m���Ƃ����B
+(3) １２章において、ビームキャノン搭載装甲車の仕様を、
+　耐久力＝２０、武器＝ビームキャノンとした。
 
-�p�Q�F�ϋv�́��Q�O�͐������H
+Ｑ２：耐久力＝２０は正しい？
 
-(4) �u11.1 �����錾�v���C�����A�u11.1.4 �����錾��̕ϐg�v��ǉ������B
+(4) 「11.1 勝利宣言」を修正し、「11.1.4 勝利宣言後の変身」を追加した。
 
-�p�R�F�����錾�ɑ΂��郊�A�N�V�����������˂鏇�Ԃ�
-�@�@�@�^�[�����������������łn�j�H
+Ｑ３：勝利宣言に対するリアクションをたずねる順番は
+　　　ターンが回る向き＝左回りでＯＫ？
 
-(5) �u11.2 ���̏�̃J�[�h�̎w���v�́A���e���d�����Ă���̂ō폜�����B
-(6) �uA.2.1�@�V�L�����N�^�[�̗�v�ɂ����郉�C�U�̍����C�������B
-(7) �S�͂ɂ����āA�u�w�w�̐l�͂��̏ꏊ�ŉ񕜂ł��Ȃ��v�Ƃ������̂�
-�@�K�X�C�������B�z���C�g�z�[���̋L�q���C�������B
+(5) 「11.2 その場のカードの指示」は、内容が重複しているので削除した。
+(6) 「A.2.1　新キャラクターの例」におけるライザの項を修正した。
+(7) ４章において、「ＸＸの人はこの場所で回復できない」とあったのを
+　適宜修正した。ホワイトホールの記述も修正した。
 
-�ȉ�����ł��B
+以下質問です。
 
-�p�S�F�����Ă߂�̘f�����Ə��Ԃ͔@���H
-�p�T�F�u�~�o�v���Ăǂ����܂��傤�H
-�p�U�F�f���J�[�h�u�퓬�����v�Ő������퓬�őߕ߂��ꂽ�ꍇ�A
-�@���̑ߕ߂��I������܂ł��̃J�[�h�́u�ߕ߁v�Ƃ݂Ȃ��̂ł��傤���H
-�@�N�����ォ��������������ꍇ�͂ǂ����Ă܂��������H
+Ｑ４：おもてめんの惑星名と順番は如何？
+Ｑ５：「救出」ってどうしましょう？
+Ｑ６：惑星カード「戦闘発生」で生じた戦闘で逮捕された場合、
+　その逮捕が終了するまでそのカードは「逮捕」とみなすのでしょうか？
+　誰かが後から引っかかった場合はどうしてましたっけ？
 
-�ł́A��낵�����肢���܂��B
-�ȏ�
+では、よろしくお願いします。
+以上
 
 ------------------------------------------------------------------------------
- Subject: [Locke-ML:807] Re: Game Journal ��
+ Subject: [Locke-ML:807] Re: Game Journal 誌
     Date: Fri, 24 Aug 2001 07:33:33 +0900
     From: Hiroyuki Yokoyama <yokoyama@kddilabs.jp>
 Reply-To: locke@platina.sakura.ne.jp
       To: locke@platina.sakura.ne.jp (Locke-ML)
 
-���R���悱�����ł��B
+横山＝よこちょんです。
 
-�Җ{����A���������߂łƂ��������܂��I���i�����K���ɁB
+辻本さん、ご結婚おめでとうございます！末永くお幸せに。
 
-> �Ƃ���ŁA"�J�[�h�Q�[���u���l���b�N�v�헪�u�b�N�̃y�[�W"��
-> ��ʌ��J�ł����ł��傤���H �e�L�����҂��������Ă���H
-> ���邢�͂����ƁA���ւ̃y�[�W�Ƃ��Ẳ^�c�ł��傤���B
-> �^�c�|���V�[�Ƃ��Ď��M�҂̊F����̑��ӂɔ����Ȃ��̂ł���΁A
-> ������� GJ ���ɂ��Љ�e�i�����̂��߉�ł����j
-> ���Ă݂悤���Ƃ��v���܂����A������Ȃ��߂܂��B
-> �i�܂��A�����G���W���ɓo�^����Ώ\���ł��傤���ǁj
+> ところで、"カードゲーム「超人ロック」戦略ブックのページ"は
+> 一般公開でしたでしょうか？ 各キャラ編が完成してから？
+> あるいはずっと、内輪のページとしての運営でしょうか。
+> 運営ポリシーとして執筆者の皆さんの総意に反しないのであれば、
+> こちらの GJ 誌にも紹介投稿（ただのお節介ですが）
+> してみようかとも思いますが、おいやならやめます。
+> （まあ、検索エンジンに登録すれば十分でしょうけど）
 
-���Ƃ��Ă͑S�L�������̐헪���������Ƃ����
-���b�N�֘A�̃��W���[�ȃz�[���y�[�W�ɏЉ�̃��[�����o����
-�Љ�̏������݂����悤�Ǝv���Ă��܂����A
-�Җ{���񂪌����_��GJ���ɏЉ�L���𓊍e����Ă�
-�ʂɍ\��Ȃ��Ǝv���܂��B
+私としては全キャラ分の戦略が揃ったところで
+ロック関連のメジャーなホームページに紹介のメールを出すか
+紹介の書きこみをしようと思っていますが、
+辻本さんが現時点でGJ誌に紹介記事を投稿されても
+別に構わないと思います。
 
-URL�͂����ł�
+URLはここです
 http://yokoyama.platina.sakura.ne.jp/
 
-�����G���W��(goo, google)�ւ̓o�^�́A���N�̂U�����
-���ɉ��񂩎��݂Ă��܂����A�����ɔ��f����Ă��Ȃ��悤�ł��B
-���W���[�ȃy�[�W���烊���N����Ȃ��Ƒʖڂ�������܂���B
+検索エンジン(goo, google)への登録は、今年の６月より
+既に何回か試みていますが、未だに反映されていないようです。
+メジャーなページからリンクされないと駄目かもしれません。
 
-�ł́A�܂��B
+では、また。
 
 ------------------------------------------------------------------------------
- Subject: Re: [Locke-HP] �j�l�b���l���b�N�����z�[���y�[�W���J������
+ Subject: Re: [Locke-HP] ＫＭＣ超人ロック公式ホームページを開きたい
     Date: Tue, 13 Nov 2001 19:40:14 +0900
     From: Kei-ichiro SAKURAI <k-sakurai@aist.go.jp>
       To: Hiroyuki Yokoyama <yokoyama@kddilabs.jp>
 
-�����炡�ł�
+さくらぃです
 
-DNS�̌��A1)�ł�2)�ł��\�ł��B
-�Ƃ肠���� 2) �Őݒ肵�Ă݂܂����i�Z���Ă������c�j�B
-���e�� ~yokoyama/www-locke/ �̉��ɒu���ĉ������B
-���O�͂Ƃ肠���� yokoyama.platina �Ƌ��ʂɂ��Ă���܂��B
+DNSの件、1)でも2)でも可能です。
+とりあえず 2) で設定してみました（短くていいし…）。
+内容は ~yokoyama/www-locke/ の下に置いて下さい。
+ログはとりあえず yokoyama.platina と共通にしてあります。
 
-���������ݒ肵�����Ȃ̂ŁADNS�ɔ��f�����܂Ŏb���i�����ԁH�j������Ǝv���܂��B
-���Ԃ񍇂��Ă�Ǝv���܂����A������肠������A�������� ^^;;
+ついさっき設定した所なので、DNSに反映されるまで暫く（数時間？）かかると思います。
+たぶん合ってると思いますが、何か問題あったら連絡下さい ^^;;
 
-�ł͂ł́B
+ではでは。
 
 At 09:05 01/11/12 +0900, you wrote:
->�Ⴆ�Ύ��̂悤��URL�Ńy�[�W���J�݂��邱�Ƃ͉\�ł��傤���B
->(1)�ĂP http://www.locke.platina.sakura.ne.jp/
->(2)�ĂQ http://locke.platina.sakura.ne.jp/
+>例えば次のようなURLでページを開設することは可能でしょうか。
+>(1)案１ http://www.locke.platina.sakura.ne.jp/
+>(2)案２ http://locke.platina.sakura.ne.jp/
 
 -----------------------------------------------
-     �N��[��Y (KEI!)         ksakurai@platina.sakura.ne.jp
+     櫻井啓一郎 (KEI!)         ksakurai@platina.sakura.ne.jp
           http://ks.platina.sakura.ne.jp/diary/diary.cgi
-            �` ��ꂽ�璼�����A����Ȃ�������o������ �`
+            〜 壊れたら直そう、直らなかったらバラそう 〜
 
 ------------------------------------------------------------------------------
 
