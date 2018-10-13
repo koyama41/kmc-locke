@@ -1,0 +1,666 @@
+<HTML>
+<HEAD><TITLE>確率チャート：チェック編</TITLE></HEAD>
+<BODY>
+<DIV ALIGN=RIGHT>
+カードゲーム超人ロック戦略ブック<BR>
+最終更新日：(2001.06.10)
+</DIV>
+<HR>
+<BR><A NAME="2D"></A><BR>
+<center><H3>２Ｄ：確率・累積確率</H3></center>
+<table align=center cellpadding=3 border=2 cellspacing=0>
+<tr align=center><td>２Ｄ</td><td>確率</td><td>累積確率</td></tr>
+<tr align=right><td align=center> ２ </td><td>1/36=　2.78%</td><td> 1/36=　2.78%</td></tr>
+<tr align=right><td align=center> ３ </td><td>2/36=　5.56%</td><td> 3/36=　8.33%</td></tr>
+<tr align=right><td align=center> ４ </td><td>3/36=　8.33%</td><td> 6/36= 16.67%</td></tr>
+<tr align=right><td align=center> ５ </td><td>4/36= 11.11%</td><td>10/36= 27.78%</td></tr>
+<tr align=right><td align=center> ６ </td><td>5/36= 13.89%</td><td>15/36= 41.67%</td></tr>
+<tr align=right><td align=center> ７ </td><td>6/36= 16.67%</td><td>21/36= 58.33%</td></tr>
+<tr align=right><td align=center> ８ </td><td>5/36= 13.89%</td><td>26/36= 72.22%</td></tr>
+<tr align=right><td align=center> ９ </td><td>4/36= 11.11%</td><td>30/36= 83.33%</td></tr>
+<tr align=right><td align=center>１０</td><td>3/36=　8.33%</td><td>33/36= 91.67%</td></tr>
+<tr align=right><td align=center>１１</td><td>2/36=　5.56%</td><td>35/36= 97.67%</td></tr>
+<tr align=right><td align=center>１２</td><td>1/36=　2.78%</td><td>36/36=100.00%</td></tr>
+</table> 
+<center>確率＝２つのダイスの目の合計がちょうどｎになる確率Ｐ{Ｎ＝ｎ}</center>
+<center>累積確率＝２つのダイスの目の合計がｎ以下となる確率Ｐ{Ｎ≦ｎ}</center>
+
+<BR><BR><A NAME="2D-cont"></A><BR>
+<center><H3>２Ｄ：ｎ以下をｍ回続けて出す確率</H3></center>
+<table align=center cellpadding=3 border=2 cellspacing=0>
+<tr align=center><td>ｎ＼ｍ</td>
+<td>１回</td><td>２回</td><td>３回</td><td>４回</td>
+<td>５回</td><td>６回</td><td>７回</td></tr>
+<tr align=right><td align=center> ２ </td>
+<td>2.78%</td><td>0.08%</td><td>0.00%</td><td>0.00%</td>
+<td>0.00%</td><td>0.00%</td><td>0.00%</td></tr>
+<tr align=right><td align=center> ３ </td>
+<td>8.33%</td><td>0.69%</td><td>0.06%</td><td>0.00%</td>
+<td>0.00%</td><td>0.00%</td><td>0.00%</td></tr>
+<tr align=right><td align=center> ４ </td>
+<td>16.67%</td><td>2.78%</td><td>0.46%</td><td>0.08%</td>
+<td>0.01%</td><td>0.00%</td><td>0.00%</td></tr>
+<tr align=right><td align=center> ５ </td>
+<td>27.78%</td><td>7.72%</td><td>2.14%</td><td>0.60%</td>
+<td>0.17%</td><td>0.05%</td><td>0.01%</td></tr>
+<tr align=right><td align=center> ６ </td>
+<td>41.67%</td><td>17.36%</td><td>7.23%</td><td>3.01%</td>
+<td>1.26%</td><td>0.52%</td><td>0.22%</td></tr>
+<tr align=right><td align=center> ７ </td>
+<td>58.33%</td><td>34.03%</td><td>19.85%</td><td>11.58%</td>
+<td>6.75%</td><td>3.94%</td><td>2.30%</td></tr>
+<tr align=right><td align=center> ８ </td>
+<td>72.22%</td><td>52.16%</td><td>37.67%</td><td>27.21%</td>
+<td>19.65%</td><td>14.19%</td><td>10.25%</td></tr>
+<tr align=right><td align=center> ９ </td>
+<td>83.33%</td><td>69.44%</td><td>57.87%</td><td>48.23%</td>
+<td>40.19%</td><td>33.49%</td><td>27.91%</td></tr>
+<tr align=right><td align=center>１０</td>
+<td>91.67%</td><td>84.03%</td><td>77.03%</td><td>70.61%</td>
+<td>64.72%</td><td>59.33%</td><td>54.39%</td></tr>
+<tr align=right><td align=center>１１</td>
+<td>97.22%</td><td>94.52%</td><td>91.90%</td><td>89.34%</td>
+<td>86.86%</td><td>84.45%</td><td>82.10%</td></tr>
+<tr align=right><td align=center>１２</td>
+<td>100.00%</td><td>100.00%</td><td>100.00%</td><td>100.00%</td>
+<td>100.00%</td><td>100.00%</td><td>100.00%</td></tr>
+</table>
+
+<BR><BR><A NAME="Prison"></A><BR>
+<center><H3>刑務所脱出チェック（初回）におけるイベント発生確率</H3></center>
+<table align=center cellpadding=3 border=2 cellspacing=0>
+<tr align=center><td>２Ｄ</td><td>イベント</td><td>確率</td><td>累積確率</td></tr>
+<tr><td align=center>２～５</td><td>脱出成功</td>
+<td align=right>10/36= 27.78%</td><td align=right>10/36= 27.78%</td></tr>
+<tr><td align=center>６</td><td>レベル４以上なら脱出成功</td>
+<td align=right>5/36= 13.89%</td><td align=right>15/36= 41.67%</td></tr>
+<tr><td align=center>７</td><td>レベル５以上なら脱出成功</td>
+<td align=right>6/36= 16.67%</td><td align=right>21/36= 58.33%</td></tr>
+<tr><td align=center>８</td><td>レベル６以上なら脱出成功</td>
+<td align=right>5/36= 13.89%</td><td align=right>26/36= 72.22%</td></tr>
+<tr><td align=center>９，１０</td><td>戦闘発生（刑務所内）</td>
+<td align=right>7/36= 19.44%</td><td align=right>33/36= 91.67%</td></tr>
+<tr><td align=center>１１</td><td>トラップに変化＝脱出成功</td>
+<td align=right>2/36=　5.56%</td><td align=right>35/36= 97.67%</td></tr>
+<tr><td align=center>１２</td><td>プルーブを埋められる</td>
+<td align=right>1/36=　2.78%</td><td align=right>36/36=100.00%</td></tr>
+</table>
+
+
+<BR><BR><A NAME="Trap"></A><BR>
+<center><H3>トラップチェックにおけるトラップ出現率</H3></center>
+<table align=center cellpadding=3 border=2 cellspacing=0>
+<tr align=center><td>２Ｄ</td><td>トラップの内容</td><td>出現率</td></tr>
+<tr><td align=center>２</td><td>死人ごけの穴</td><td align=right>1/36=　2.78%</td></tr>
+<tr><td align=center>３</td><td>ネクラ６型・クローリー</td><td align=right>2/36=　5.56%</td></tr>
+<tr><td align=center>４</td><td>スカイホーク・ダンディ</td><td align=right>3/36=　8.33%</td></tr>
+<tr><td align=center>５</td><td>幻覚攻撃</td><td align=right>4/36= 11.11%</td></tr>
+<tr><td align=center>６</td><td>ヘルダイバー３人</td><td align=right>5/36= 13.89%</td></tr>
+<tr><td align=center>７</td><td>しめきり</td><td align=right>6/36= 16.67%</td></tr>
+<tr><td align=center>８</td><td>サイバー５人</td><td align=right>5/36= 13.89%</td></tr>
+<tr><td align=center>９</td><td>くるくるパッＸ</td><td align=right>4/36= 11.11%</td></tr>
+<tr><td align=center>１０</td><td>小麦の刈り入れ</td><td align=right>3/36=　8.33%</td></tr>
+<tr><td align=center>１１</td><td>くるくるパッＸ（弟）</td><td align=right>2/36=　5.56%</td></tr>
+<tr><td align=center>１２</td><td>暗黒騎士団</td><td align=right>1/36=　2.78%</td></tr>
+</table>
+
+<BR><BR><A NAME="RandomCombat"></A><BR>
+<center><H3>ランダム戦闘発生時の敵出現率</H3></center>
+<table align=center cellpadding=3 border=2 cellspacing=0>
+<tr align=center><td>２Ｄ</td><td>敵</td><td>出現率</td><td>　</td></tr>
+<tr><td align=center>２</td><td>ランダムキャラクター</td>
+<td align=right>1/36=　2.78%</td><td align=center>出現率小計</td></tr>
+<tr><td align=center>３</td><td>３－３のエスパー</td>
+<td align=right>2/36=　5.56%</td>
+<td align=right rowspan=3 valign=center> 9/36= 25.00%</td></tr>
+<tr><td align=center>４</td><td>３－２のエスパー</td>
+<td align=right>3/36=　8.33%</td></tr>
+<tr><td align=center>５</td><td>２－２のエスパー</td>
+<td align=right>4/36= 11.11%</td></tr>
+<tr><td align=center>６</td><td>警官３人、レイガン</td>
+<td align=right>5/36= 13.89%</td>
+<td align=right rowspan=3 valign=center> 16/36= 44.44%</td></tr>
+<tr><td align=center>７</td><td>警官４人、ブラスター</td>
+<td align=right>6/36= 16.67%</td>
+<tr><td align=center>８</td><td>警官５人、バズーカ</td>
+<td align=right>5/36= 13.89%</td>
+<tr><td align=center>９</td><td>ジャマーＬｖ１、警官３人、武装チェック</td>
+<td align=right>4/36= 11.11%</td><td align=center>累積出現率</td></tr>
+<tr><td align=center>１０</td><td>ジャマーＬｖ２、警官３人、武装チェック</td>
+<td align=right>3/36=　8.33%</td><td align=right>7/36= 19.44%</td></tr>
+<tr><td align=center>１１</td><td>ジャマーＬｖ３、警官４人、武装チェック</td>
+<td align=right>2/36=　5.56%</td><td align=right>9/36= 25.00%</td></tr>
+<tr><td align=center>１２</td><td>ジャマーＬｖ４、警官５人、武装チェック</td>
+<td align=right>1/36=　2.78%</td><td align=right>10/36= 27.78%</td></tr>
+</table>
+
+<BR><BR><A NAME="Armaments"></A><BR>
+<center><H3>武装チェックにおける武装出現分布</H3></center>
+<table align=center cellpadding=3 border=2 cellspacing=0>
+<tr align=center><td>２Ｄ</td><td>武装</td><td>比率</td><td>出現率</td></tr>
+<tr><td align=center>２</td><td>Ｇ弾</td>
+<td align=right>1/36=　2.78%</td><td align=right>0.78%</td></tr>
+<tr><td align=center>３</td><td>トラップ</td>
+<td align=right>2/36=　5.56%</td><td align=right>1.54%</td></tr>
+<tr><td align=center>４，５</td><td>レイガン</td>
+<td align=right>7/36= 19.44%</td><td align=right>5.40%</td></tr>
+<tr><td align=center>６～８</td><td>ブラスター</td>
+<td align=right>16/36= 44.44%</td><td align=right>12.34%</td></tr>
+<tr><td align=center>９，１０</td><td>バズーカ</td>
+<td align=right>7/36= 19.44%</td><td align=right>5.40%</td></tr>
+<tr><td align=center>１１</td><td>ビームキャノン搭載装甲車</td>
+<td align=right>2/36=　5.56%</td><td align=right>1.54%</td></tr>
+<tr><td align=center>１２</td><td>Ｄ弾</td>
+<td align=right>1/36=　2.78%</td><td align=right>0.78%</td></tr>
+</table>
+<center>出現率＝ランダム戦闘時の武装チェック実施確率(=10/36)×武装比率</center>
+
+<BR><BR><A NAME="Appear"></A><BR>
+<center><H3>実はそこにいた確率</H3></center>
+<table align=center cellpadding=3 border=2 cellspacing=0>
+<tr align=center><td>２Ｄ</td><td>イベント</td><td>確率</td><td>累積確率</td></tr>
+<tr><td align=center>２～４</td><td>実はそこにいた</td>
+<td align=right>6/36= 16.67%</td><td align=right>6/36= 16.67%</td></tr>
+<tr><td align=center>５</td><td>２ラウンド目に登場</td>
+<td align=right>4/36= 11.11%</td><td align=right>10/36= 27.78%</td></tr>
+<tr><td align=center>６</td><td>３ラウンド目に登場</td>
+<td align=right>5/36= 13.89%</td><td align=right>15/36= 41.67%</td></tr>
+<tr><td align=center>７</td><td>４ラウンド目に登場</td>
+<td align=right>6/36= 16.67%</td><td align=right>21/36= 58.33%</td></tr>
+<tr><td align=center>８～１２</td><td>そこにはいなかった</td>
+<td align=right>15/36= 41.67%</td><td align=right>36/36=100.00%</td></tr>
+</table>
+
+<BR><BR><A NAME="Rebirth"></A><BR>
+<center><H3>実は生きていた確率</H3></center>
+<table align=center cellpadding=3 border=2 cellspacing=0>
+<tr align=center><td>２Ｄ</td><td>イベント</td><td>確率</td></tr>
+<tr><td align=center>２</td><td>実は生きていた！</td>
+<td align=right>1/36=　2.78%</td></tr>
+<tr><td align=center>３～５</td><td>残留思念チェック</td>
+<td align=right>9/36= 25.00%</td></tr>
+<tr><td align=center>６～１２</td><td>やっぱり死んでいる</td>
+<td align=right>26/36= 72.22%</td></tr>
+</table>
+
+<BR><BR><A NAME="Rebirth-repeat"></A><BR>
+<center><H3>生き返る確率：ｎ人ｍ回</H3></center>
+<table align=center cellpadding=3 border=2 cellspacing=0>
+<tr align=center><td>ｍ回＼ｎ人</td>
+<td>１人</td><td>２人</td><td>３人</td><td>４人</td><td>５人</td><td>６人</td></tr>
+<tr align=right><td align=center>１</td>
+<td>2.78%</td><td>5.48%</td><td>8.10%</td><td>10.66%</td><td>13.14%</td><td>15.55%</td></tr>
+<tr align=right><td align=center>２</td>
+<td>5.48%</td><td>10.66%</td><td>15.55%</td><td>20.18%</td><td>24.55%</td><td>28.68%</td></tr>
+<tr align=right><td align=center>３</td>
+<td>8.10%</td><td>15.55%</td><td>22.39%</td><td>28.68%</td><td>34.46%</td><td>39.77%</td></tr>
+<tr align=right><td align=center>４</td>
+<td>10.66%</td><td>20.18%</td><td>28.68%</td><td>36.28%</td><td>43.07%</td><td>49.14%</td></tr>
+<tr align=right><td align=center>５</td>
+<td>13.14%</td><td>24.55%</td><td>34.46%</td><td>43.07%</td><td>50.55%</td><td>57.05%</td></tr>
+<tr align=right><td align=center>１０</td>
+<td>24.55%</td><td>43.07%</td><td>57.05%</td><td>67.59%</td><td>75.55%</td><td>81.55%</td></tr>
+<tr align=right><td align=center>１５</td>
+<td>34.46%</td><td>57.05%</td><td>71.85%</td><td>81.55%</td><td>87.91%</td><td>92.08%</td></tr>
+<tr align=right><td align=center>２０</td>
+<td>43.07%</td><td>67.59%</td><td>81.55%</td><td>89.50%</td><td>94.02%</td><td>96.60%</td></tr>
+<tr align=right><td align=center>２５</td>
+<td>50.55%</td><td>75.55%</td><td>87.91%</td><td>94.02%</td><td>97.04%</td><td>98.54%</td></tr>
+<tr align=right><td align=center>３０</td>
+<td>57.05%</td><td>81.55%</td><td>92.08%</td><td>96.60%</td><td>98.54%</td><td>99.37%</td></tr>
+<tr align=right BGCOLOR="#DDFFDD"><td align=center>平均間隔</td>
+<td>36.00</td><td>18.25</td><td>12.34</td><td>9.38</td><td>7.61</td><td>6.43</td></tr>
+</table>
+<center>確率＝実は生きていたチェックをｎ人がｍ回行う間に
+少なくとも１人が生き返る確率</center>
+<center>平均間隔＝少なくとも１人が生き返るのに要するチェック回数の平均値</center>
+
+
+<BR><BR><A NAME="Ghost1"></A><BR>
+<center><H3>残留思念の攻撃力分布</H3></center>
+<table align=center cellpadding=3 border=2 cellspacing=0>
+<tr align=center><td>２Ｄ</td><td>残留思念</td>
+<td>攻撃力別出現率</td><td>出現率</td><td>累積出現率</td></tr>
+<tr align=right><td align=center>２</td><td align=left>攻撃力１００</td>
+<td>1/36=　2.78%</td><td>0.69%</td><td>0.69%</td></tr>
+<tr align=right><td align=center>３</td><td align=left>攻撃力５０</td>
+<td>2/36=　5.56%</td><td>1.39%</td><td>2.08%</td></tr>
+<tr align=right><td align=center>４</td><td align=left>攻撃力３０</td>
+<td>3/36=　8.33%</td><td>2.08%</td><td>4.17%</td></tr>
+<tr align=right><td align=center>５</td><td align=left>攻撃力２０</td>
+<td>4/36= 11.11%</td><td>2.78%</td><td>6.94%</td></tr>
+<tr align=right><td align=center>６</td><td align=left>攻撃力１０</td>
+<td>5/36= 13.89%</td><td>3.47%</td><td>10.42%</td></tr>
+<tr align=right><td align=center>７～１２</td><td align=center>なし</td>
+<td>21/36= 58.33%</td><td></td><td></td></tr>
+</table>
+<center>出現率＝残留思念チェック発生率(=9/36)×攻撃力別出現率</center>
+
+
+<BR><BR><A NAME="Ghost2"></A><BR>
+<center><H3>攻撃力別残留思念発生率：ｎ人</H3></center>
+<table align=center cellpadding=3 border=2 cellspacing=0>
+<tr align=center><td>攻撃力＼ｎ人</td>
+<td>１人</td><td>２人</td><td>３人</td><td>４人</td><td>５人</td><td>６人</td></tr>
+<tr align=right><td align=left>攻撃力１００</td>
+<td>0.69%</td><td>1.38%</td><td>2.07%</td><td>2.75%</td><td>3.42%</td><td>4.09%</td></tr>
+<tr align=right><td align=left>攻撃力５０以上</td>
+<td>2.08%</td><td>4.12%</td><td>6.12%</td><td>8.08%</td><td>9.99%</td><td>11.87%</td></tr>
+<tr align=right><td align=left>攻撃力３０以上</td>
+<td>4.17%</td><td>8.16%</td><td>11.99%</td><td>15.65%</td><td>19.17%</td><td>22.54%</td></tr>
+<tr align=right><td align=left>攻撃力２０以上</td>
+<td>6.94%</td><td>13.41%</td><td>19.42%</td><td>25.02%</td><td>30.22%</td><td>35.07%</td></tr>
+<tr align=right><td align=left>攻撃力１０以上</td>
+<td>10.42%</td><td>19.75%</td><td>28.11%</td><td>35.60%</td><td>42.31%</td><td>48.32%</td></tr>
+</table>
+<center>ｎ＝同時に「実は生きていたチェック」を行う人数</center>
+<center>確率＝ある攻撃力以上の残留思念が少なくとも１つ発生する確率</center>
+
+<BR><BR><A NAME="Change"></A><BR>
+<center><H3>変身チェックにおけるイベント発生確率</H3></center>
+<table align=center cellpadding=3 border=2 cellspacing=0>
+<tr align=center><td>２Ｄ</td><td>イベント</td>
+<td>イベント別発生確率</td><td>発生率</td></tr>
+<tr align=right><td align=center>２，３</td><td align=left>レベルアップ</td>
+<td>3/36=　8.33%</td><td>0.52%</td></tr>
+<tr align=right><td align=center>４，５</td><td align=left>２枚余分にもらえる</td>
+<td>7/36= 19.44%</td><td>1.22%</td></tr>
+<tr align=right><td align=center>６～８</td><td align=left>何も起きなかった</td>
+<td>16/36= 44.44%</td><td>3.64%</td></tr>
+<tr align=right><td align=center>９，１０</td><td align=left>精神力アップ</td>
+<td>7/36= 19.44%</td><td>1.22%</td></tr>
+<tr align=right><td align=center>１１，１２</td><td align=left>変身</td>
+<td>3/36=　8.33%</td><td>0.52%</td></tr>
+</table>
+<center>発生率＝攻撃を受けた時の変身チェック発生率(=2/36)×イベント別発生確率</center>
+
+
+<BR><BR><A NAME="Change2"></A><BR>
+<center><H3>変身チェックで何も起きなかった時にリロールした場合</H3></center>
+<table align=center cellpadding=3 border=2 cellspacing=0>
+<tr align=center><td>イベント</td><td >イベント別占有率*</td></tr>
+<tr align=right><td align=left>レベルアップ</td>
+<td>3/36 × (1 + 16/36) = 12.04%</td></tr>
+<tr align=right><td align=left>２枚余分にもらった</td>
+<td>7/36 × (1 + 16/36) = 28.09%</td></tr>
+<tr align=right></td><td align=left>結局何も起きなかった</td>
+<td>(16/36)^2 = 19.75%</td></tr>
+<tr align=right></td><td align=left>精神力アップ</td>
+<td>7/36 × (1 + 16/36) = 28.09%</td></tr>
+<tr align=right><td align=left>変身</td>
+<td>3/36 × (1 + 16/36) = 12.04%</td></tr>
+</table>
+<center>イベント別占有率：変身チェック時に発生するイベントの相対比率</center>
+
+
+<BR><BR><A NAME="Damage1"></A><BR>
+<center><H3>戦闘結果（１）：ダメージ分布</H3></center>
+<table align=center cellpadding=3 border=2 cellspacing=0>
+<tr align=center><td>ダメージ</td>
+<td>１対２</td><td>１対１</td><td>２対１</td><td>３対１</td><td>４対１</td><td>５対１</td>
+<td>６対１</td><td>７対１</td><td>８対１</td><td>９対１</td><td>10対１</td></tr>
+<tr align=right><td align=center>０</td>
+<td>91.67%</td><td>72.22%</td><td>58.33%</td><td>41.67%</td><td>27.78%</td><td>16.67%</td>
+<td>8.33%</td><td>2.78%</td><td>　</td><td>　</td><td>　</td></tr>
+<tr align=right BGCOLOR="#DDFFDD"><td align=center>１</td>
+<td>5.56%</td><td>19.44%</td><td>33.33%</td><td>50.00%</td><td>55.56%</td><td>55.56%</td>
+<td>50.00%</td><td>38.89%</td><td>27.78%</td><td>16.67%</td><td>2.78%</td></tr>
+<tr align=right BGCOLOR="#CCFFFF"><td align=center>２</td>
+<td>2.78%</td><td>8.33%</td><td>8.33%</td><td>5.56%</td><td>13.89%</td><td>19.44%</td>
+<td>25.00%</td><td>41.67%</td><td>44.44%</td><td>41.67%</td><td>25.00%</td></tr>
+<tr align=right BGCOLOR="#FFFFCC"><td align=center>３</td>
+<td>　</td><td>　</td><td>　</td><td>2.78%</td><td>2.78%</td><td>8.33%</td>
+<td>16.67%</td><td>13.89%</td><td>19.44%</td><td>25.00%</td><td>44.44%</td></tr>
+<tr align=right BGCOLOR="#FFCC99"><td align=center>４</td>
+<td>　</td><td>　</td><td>　</td><td>　</td><td>　</td><td>　</td>
+<td>　</td><td>2.78%</td><td>8.33%</td><td>16.67%</td><td>25.00%</td></tr>
+<tr align=right BGCOLOR="#FFCCCC"><td align=center>５</td>
+<td>　</td><td>　</td><td>　</td><td>　</td><td>　</td><td>　</td>
+<td>　</td><td>　</td><td>　</td><td>　</td><td>2.78%</td></tr>
+<tr align=right><td align=center>ダメージ<BR>期待値</td>
+<td>0.11</td><td>0.36</td><td>0.50</td><td>0.69</td><td>0.92</td><td>1.19</td>
+<td>1.50</td><td>1.75</td><td>2.08</td><td>2.42</td><td>3.00</td></tr>
+<tr align=right><td align=center>ダメージ<BR>攻撃比</td>
+<td>－</td><td>0.36</td><td>0.25</td><td>0.23</td><td>0.23</td><td>0.24</td>
+<td>0.25</td><td>0.25</td><td>0.26</td><td>0.27</td><td>0.30</td></tr>
+</table>
+<center>ダメージ攻撃比＝(ｎ対１の攻撃におけるダメージの期待値)÷ｎ</center>
+
+<BR><BR><A NAME="Damage2"></A><BR>
+<center><H3>戦闘結果（２）：２Ｄ目標値</H3></center>
+<table align=center cellpadding=3 border=2 cellspacing=0>
+<tr align=center><td>ダメージ</td>
+<td>１対２</td><td>１対１</td><td>２対１</td><td>３対１</td><td>４対１</td><td>５対１</td>
+<td>６対１</td><td>７対１</td><td>８対１</td><td>９対１</td><td>10対１</td></tr>
+<tr align=center BGCOLOR="#DDFFDD"><td align=center>１以上</td>
+<td>３</td><td>５</td><td>６</td><td>７</td><td>８</td><td>９</td>
+<td>１０</td><td>１１</td><td>１２</td><td>１２</td><td>１２</td></tr>
+<tr align=center BGCOLOR="#CCFFFF"><td align=center>２以上</td>
+<td>２</td><td>３</td><td>３</td><td>３</td><td>４</td><td>５</td>
+<td>６</td><td>７</td><td>８</td><td>９</td><td>１１</td></tr>
+<tr align=center BGCOLOR="#FFFFCC"><td align=center>３以上</td>
+<td>　</td><td>　</td><td>　</td><td>２</td><td>２</td><td>３</td>
+<td>４</td><td>４</td><td>５</td><td>６</td><td>８</td></tr>
+<tr align=center BGCOLOR="#FFCC99"><td align=center>４以上</td>
+<td>　</td><td>　</td><td>　</td><td>　</td><td>　</td><td>　</td>
+<td>　</td><td>２</td><td>３</td><td>４</td><td>５</td></tr>
+<tr align=center BGCOLOR="#FFCCCC"><td align=center>５以上</td>
+<td>　</td><td>　</td><td>　</td><td>　</td><td>　</td><td>　</td>
+<td>　</td><td>　</td><td>　</td><td>　</td><td>２</td></tr>
+</table>
+
+<BR><BR><A NAME="Damage3"></A><BR>
+<center><H3>戦闘結果（３）：２Ｄ目標値達成確率</H3></center>
+<table align=center cellpadding=3 border=2 cellspacing=0>
+<tr align=center><td>ダメージ</td>
+<td>１対２</td><td>１対１</td><td>２対１</td><td>３対１</td><td>４対１</td><td>５対１</td>
+<td>６対１</td><td>７対１</td><td>８対１</td><td>９対１</td><td>10対１</td></tr>
+<tr align=right BGCOLOR="#DDFFDD"><td align=center>１以上</td>
+<td>8.33%</td><td>27.78%</td><td>41.67%</td><td>58.33%</td><td>72.22%</td><td>83.33%</td>
+<td>91.67%</td><td>97.22%</td><td>100%</td><td>100%</td><td>100%</td></tr>
+<tr align=right BGCOLOR="#CCFFFF"><td align=center>２以上</td>
+<td>2.78%</td><td>8.33%</td><td>8.33%</td><td>8.33%</td><td>16.67%</td><td>27.78%</td>
+<td>41.67%</td><td>58.33%</td><td>72.22%</td><td>83.33%</td><td>97.22%</td></tr>
+<tr align=right BGCOLOR="#FFFFCC"><td align=center>３以上</td>
+<td>　</td><td>　</td><td>　</td><td>2.78%</td><td>2.78%</td><td>8.33%</td>
+<td>16.67%</td><td>16.67%</td><td>27.78%</td><td>41.67%</td><td>72.22%</td></tr>
+<tr align=right BGCOLOR="#FFCC99"><td align=center>４以上</td>
+<td>　</td><td>　</td><td>　</td><td>　</td><td>　</td><td>　</td>
+<td>　</td><td>2.78%</td><td>8.33%</td><td>16.67%</td><td>27.78%</td></tr>
+<tr align=right BGCOLOR="#FFCCCC"><td align=center>５以上</td>
+<td>　</td><td>　</td><td>　</td><td>　</td><td>　</td><td>　</td>
+<td>　</td><td>　</td><td>　</td><td>　</td><td>2.78%</td></tr>
+</table>
+
+<BR><BR><A NAME="Cruiser"></A><BR>
+<center><H3>巡洋艦の射撃チェック</H3></center>
+<table align=center cellpadding=3 border=2 cellspacing=0>
+<tr align=center><td>２Ｄ</td><td>イベント</td><td>確率</td><td>生起間隔</td></tr>
+<tr align=right><td align=center>２</td><td align=left>Ｄ弾</td><td>1/36=　2.78%</td><td>36.00</td></tr>
+<tr align=right><td align=center>３</td><td align=left>Ｇ弾</td><td>2/36=　5.56%</td><td>18.00</td></tr>
+<tr align=right><td align=center>４～６</td><td align=left>ビームキャノン</td>
+<td>12/36= 33.33%</td><td>3.00</td></tr>
+<tr align=right><td align=center>７～１１</td><td align=left>何も起きない</td>
+<td>20/36= 55.55%</td><td>1.80</td></tr>
+<tr align=right><td align=center>１２</td><td align=left>誤爆</td><td>1/36=　2.78%</td><td>36.00</td></tr>
+<tr align=right><td align=center>　</td><td align=left>Ｄ弾orＧ弾</td><td>3/36=　8.33%</td><td>12.00</td></tr>
+<tr align=right><td align=center>　</td><td align=left>相手を攻撃する</td><td>15/36= 41.67%</td><td>2.40</td></tr>
+</table>
+
+<BR><BR><A NAME="Geoid-DrWon"></A><BR>
+<center><H3>Ｄｒ．ウォンのジオイド弾射撃チェック</H3></center>
+<table align=center cellpadding=3 border=2 cellspacing=0>
+<tr align=center><td>２Ｄ</td><td>イベント</td><td>確率</td><td>生起間隔</td></tr>
+<tr align=right><td align=center>２～６</td><td align=left>ジオイド弾</td>
+<td>15/36=　41.67%</td><td>2.40</td></tr>
+<tr align=right><td align=center>７～９</td><td align=left>何も起きない</td>
+<td>15/36=　41.67%</td><td>2.40</td></tr>
+<tr align=right><td align=center>１０～１２</td><td align=left>失神</td>
+<td>6/36=　16.67%</td><td>6.00</td></tr>
+<tr align=right><td align=center>　</td><td align=left>ジオイド弾or失神</td>
+<td>21/36=　58.33%</td><td>1.71</td></tr>
+</table>
+
+<BR><BR><A NAME="Geoid-planet"></A><BR>
+<center><H3>能力カードのジオイド弾射撃チェック</H3></center>
+<table align=center cellpadding=3 border=2 cellspacing=0>
+<tr align=center><td>２Ｄ</td><td>イベント</td><td>確率</td><td>生起間隔</td></tr>
+<tr align=right><td align=center>２～４</td><td align=left>ジオイド弾</td>
+<td>6/36=　16.67%</td><td>6.00</td></tr>
+<tr align=right><td align=center>５～９</td><td align=left>何も起きない</td>
+<td>24/36=　66.67%</td><td>1.50</td></tr>
+<tr align=right><td align=center>１０～１２</td><td align=left>失神</td>
+<td>6/36=　16.67%</td><td>6.00</td></tr>
+<tr align=right><td align=center>　</td><td align=left>ジオイド弾or失神</td>
+<td>12/36=　33.33%</td><td>3.00</td></tr>
+</table>
+
+<BR><BR><A NAME="Subspace-DrWon"></A><BR>
+<center><H3>Ｄｒ．ウォンの亜空間フィールド使用チェック</H3></center>
+<table align=center cellpadding=3 border=2 cellspacing=0>
+<tr align=center><td>２Ｄ</td><td>イベント</td><td>確率</td><td>生起間隔</td></tr>
+<tr align=right><td align=center>２～９</td><td align=left>亜空間フィールド発生</td>
+<td>30/36=　83.33%</td><td>1.20</td></tr>
+<tr align=right><td align=center>１０～１２</td><td align=left>失神</td>
+<td>6/36=　16.67%</td><td>6.00</td></tr>
+</table>
+
+<BR><BR><A NAME="Subspace-planet"></A><BR>
+<center><H3>能力カードの亜空間フィールド使用チェック</H3></center>
+<table align=center cellpadding=3 border=2 cellspacing=0>
+<tr align=center><td>２Ｄ</td><td>イベント</td><td>確率</td><td>生起間隔</td></tr>
+<tr align=right><td align=center>２～６</td><td align=left>亜空間フィールド発生</td>
+<td>15/36=　41.67%</td><td>2.4</td></tr>
+<tr align=right><td align=center>７～９</td><td align=left>何も起きない</td>
+<td>15/36=　41.67%</td><td>2.4</td></tr>
+<tr align=right><td align=center>１０～１２</td><td align=left>失神</td>
+<td>6/36=　16.67%</td><td>6.00</td></tr>
+<tr align=right><td align=center>　</td><td align=left>フィールド発生or失神</td>
+<td>21/36=　58.33%</td><td>1.71</td></tr>
+</table>
+
+<BR><BR><A NAME="The-Nike"></A><BR>
+<center><H3>Ｓストロハイムのニケチェック</H3></center>
+<table align=center cellpadding=3 border=2 cellspacing=0>
+<tr align=center><td>２Ｄ</td><td>イベント</td><td>確率</td><td>生起間隔</td></tr>
+<tr align=right><td align=center>２～１０</td><td align=left>ニケ使用可能</td>
+<td>33/36=　91.67%</td><td>1.09</td></tr>
+<tr align=right><td align=center>１１，１２</td><td align=left>失神</td>
+<td>3/36=　8.33%</td><td>12.00</td></tr>
+</table>
+
+<BR><BR><A NAME="1D-try"></A><BR>
+<center><H3>ナガトのサイコポッド／フランシス・レマのラフノールの鏡</H3></center>
+<table align=center cellpadding=3 border=2 cellspacing=0>
+<tr align=center><td>１Ｄ</td><td>イベント</td><td>確率</td><td>生起間隔</td></tr>
+<tr align=right><td align=center>１～４</td><td align=left>成功</td>
+<td>4/6=　66.66%</td><td>1.50</td></tr>
+<tr align=right><td align=center>５，６</td><td align=left>失敗</td>
+<td>2/6=　33.33%</td><td>3.00</td></tr>
+</table>
+
+<BR><BR><BR>
+<A NAME="Remarks"></A><HR>
+<H2>【注釈】</H2>
+
+<ul>
+<li> 表中の有効数字は２桁
+<li> 期待値と平均値は同じ意味で用いている。（つまり、期待値＝平均値）
+<li> 成功率 p のチェックを n 回連続で成功させる確率は p<sup>n</sup>
+<li> 成功率 p のチェックを n 回中に少なくとも１回成功させる確率は 1－(1－p)<SUP>n</SUP>
+<li> 成功率 p のチェックを成功させるのに要する試行回数の平均値は 1/p
+<li> 確率 p で継続するイベントの継続回数の期待値は 1/(1-p)
+</ul>
+
+<A NAME="REM-2D"></A><BR>
+<H4><A HREF="#2D-cont">２Ｄ：ｎ以下をｍ回出す確率</A></H4>
+<dl>
+<dt>【応用例１】
+<dd> ヤマキ２がＤ弾を撃つのは、ナガトがＤ弾を撃つよりも容易である。<BR>
+［ヤマキ２：９以下４回(48.23%)、ナガト：６以下１回(41.67%)］
+<DT>
+<dt>【応用例２】
+<dd>ヤマキ２がジオイド弾を撃つ確率は、ライオットがジオイド弾を撃つ確率とほぼ等しい。<BR>
+［ヤマキ２：９以下５回(27.91%)、ライオット：５以下１回(27.78%)］
+<dt>【応用例３】
+<dd>ヤマキ１が根性でビームキャノンを撃つのは、社長がＬｖ６光の剣を撃つより難しい。<BR>
+［ヤマキ１：５以下４回(0.60%）、オクタヴィアス：３以下２回(0.69%)］
+<dt>【応用例４】
+<dd>社長がＬｖ７光の剣を撃つのは、ヤマキ１が根性でＤ弾を撃つのと同様に奇跡的である。<BR>
+［オクタヴィアス：３以下３回(0.06%）、ヤマキ１：５以下６回(0.05%)］
+</dl>
+
+
+<A NAME="REM-Prison"></A><BR>
+<H4><A HREF="#Prison">刑務所チェック</A></H4>
+<ul>
+<li> エスパーが刑務所から脱出するチャンスを得る（プルーブ等でない）確率は次の通り
+<ul>
+<li> レベル４：{1-(5+6+1)/36}＝2/3＝66.67%
+<li> レベル５：{1-(6+1)/36}＝29/36＝80.56%
+<li> レベル６：{1-1/36}＝35/36＝97.67%
+</ul>
+</ul>
+
+<A NAME="REM-Trap"></A><BR>
+<H4><A HREF="#Trap">トラップ</A></H4>
+<ul>
+<li>トラップ出現後、戦闘発生に至る確率は 11/36＝30.56%
+<li>幻覚攻撃における平均ロール回数は1.2回
+<li>ヘルダイバー３人の攻撃力の総和は、最小9、最大21、平均15（ビームキャノンに匹敵）
+<li>サイバー５人の攻撃力の総和は１回あたり、最小15、最大35、平均25（Ｇ弾に匹敵）
+<li>小麦の刈り入れが継続する回数の期待値は３回
+<li>くるくるパッＸ弟を出した場合の平均行動不能回数は2.33回
+<li>暗黒騎士団の攻撃回数の期待値は２回
+</ul>
+
+<A NAME="REM-RandomCombat"></A><BR>
+<H4><A HREF="#RandomCombat">ランダム戦闘</A></H4>
+<ul>
+<li>レイガン×３人の攻撃力の総和は、最小0、最大12、平均6（弱めのバズーカに匹敵）<BR>
+<li>ブラスター×４人の攻撃力の総和は、最小12、最大28、平均20（ビームキャノンに匹敵）<BR>
+<li>バズーカ×５人の攻撃力の総和は、最小30、最大55、平均42.5（Ｄ弾に匹敵）<BR>
+</ul>
+
+<A NAME="REM-Armaments"></A><BR>
+<H4><A HREF="#Armaments">武装チェック</A></H4>
+<ul>
+<li>武装チェック後に警官とジャマーが残る確率は 30/36＝83.33%、残らない確率は 16.67%<BR>
+<li>ランダム戦闘発生後、戦闘に突入する（Ｇ弾等で消滅しない）確率は97.39%<BR>
+<li>ランダム戦闘発生後、逮捕を選べる（敵が警官やエスパーである）確率は 95.37%<BR>
+<li>ランダム戦闘発生後、逮捕を選べない確率は 4.63%<BR>
+</ul>
+
+<A NAME="REM-Rebirth-repeat"></A><BR>
+<H4><A HREF="#Rebirth-repeat"> 生き返る確率：ｎ人ｍ回</A></H4>
+<ul>
+<li> 
+５人が死亡している状態で５回戦闘を発生させると
+50.55% の確率で少なくとも１人が生き返る。
+よって、７人プレイで一人勝ちを狙うなら短期決戦で臨む必要あり。
+</ul>
+
+<A NAME="REM-Ghost1"></A><BR>
+<H4><A HREF="#Ghost1">残留思念攻撃力分布</A></H4>
+<ul>
+<li> 攻撃力の期待値は Σ{攻撃力×出現率}＝2.92
+<li> 残留思念チェック開始時点での攻撃力期待値は 2,92/(9/36)＝11.67
+<li> 残留思念が実際に発生した場合の攻撃力期待値は 11.67/(15/36)＝28.00
+<li> 残留思念の攻撃力は非発生時を含めて平均すると軽微だが、出る時は大きく出る
+</ul>
+
+<A NAME="REM-Ghost2"></A><BR>
+<H4><A HREF="#Ghost2">攻撃力別残留思念発生率：ｎ人</A></H4>
+<ul>
+<li> 死亡者が３人いれば、９回に１回以上の頻度で攻撃力３０以上の思念が発生する。
+</ul>
+
+
+<A NAME="REM-Change"></A><BR>
+<H4> <A HREF="#Change">変身チェック</A></H4>
+<ul>
+<li> チェック開始後、何かが起きる割合は 55.56%
+<li> チェック開始後、レベルアップ・精神力アップ・変身のいずれかが起きる割合は 36.11%
+<li> 「レベルアップ」に要する被弾回数の平均値は 216（「変身」も同様）
+<li> 「精神力アップ」に要する被弾回数の平均値は 82.29
+<li> レベルアップ・精神力アップ・変身のいずれかが起きるのに要する被弾回数の平均値は 44.31
+（着目イベントの発生比はそれぞれ 3:7:3）
+</ul>
+
+<A NAME="REM-Change2"></A><BR>
+<H4><A HREF="#Change2">変身チェックでリロール</A></H4>
+<ul>
+<li> リロールにより有効なイベントの発生率が 44.44% 増加する。これにより、変身チェック開始後、「何も起きない」および「２枚余分にもらえる」を除くイベント（レベルアップ・精神力アップ・変身）が起きる確率は 52.16% となる。
+</ul>
+
+<A NAME="REM-Damage1"></A><BR>
+<h4><A HREF="#Damage1">戦闘結果：ダメージ分布</A></h4>
+<ul>
+<li>１対１以上の攻撃における単位攻撃力当たりのダメージ効率の変化は次の通り
+<ul>
+<li>１対１で最大(0.36)
+<li>１対１→４対１にかけて減少、４対１で極小(0.23)
+<li>４対１→10対１にかけて増加、10対１で極大(0.30)
+</ul>
+<li>９対１→10対１における効率の増加が著しい
+<li>ジャマーがかかっている相手に対しては、
+低レベルの攻撃には同調せず、個別に攻撃する方が効率がよい。
+ただし、攻撃が全て空振りに終わる可能性を低くしたい場合は、
+同調によりｎ対１のｎを繰り上げるのがお勧め。
+</ul>
+
+<A NAME="REM-Damage2"></A><BR>
+<h4><A HREF="#Damage2">戦闘結果：２Ｄ目標値</A></h4>
+<ul>
+<li> 代表的な狙い目は次の通り
+<ul>
+<li> １対１の５以下　→１発
+<li> ６対１の４以下　→３発
+<li> ７対１のピンゾロ→４発
+<li> 10対１の８以下　→３発
+</ul>
+</ul>
+
+<A NAME="REM-Damage3"></A><BR>
+<h4><A HREF="#Damage3">戦闘結果：２Ｄ目標値達成確率</A></h4>
+<ul>
+<li> １対１の攻撃でも３以下(8.33%)で２発当たる点に注意
+<li> １対１～４対１までは、確実に１発当てることを優先したい
+<li> ２発以上を狙うなら７対１の７以下(58.33%) 程度まで攻撃力を上げたい
+<li> 現実的に３発以上を狙えるのは８対１の５以下(27.78%) から
+<li> １０対１の攻撃なら８以下(72.22%)で３発を当てるのが目安
+</ul>
+
+<BR><A NAME="REM-Cruiser"></A>
+<h4><A HREF="#Cruiser">巡洋艦の射撃チェック</A></h4>
+<ul>
+<li> 攻撃がない確率の方が高い。よって、戦闘継続の手段としては信頼性に欠ける。
+<li> ジャマーによりコンバットカードが全く使えない場合でも、２～３ラウンドに１回の割合で攻撃可能である。よってヤマキ１やアマゾナが警戒装置で頓死する可能性はそれほど高くない。
+</ul>
+
+<BR><A NAME="REM-Geoid-DrWon"></A>
+<h4><A HREF="#Geoid-DrWon">Ｄｒ．ウォンのジオイド弾射撃チェック</A></h4>
+<ul>
+<li> ジオイド弾が発射される可能性と何も起きない確率は等しい(15/36=41.67%)
+<li> ２～３回につき１回の割合でジオイド弾が発射される
+<li> 逆に、何も起きないのは２～３回につき１回程度。ジオイド弾を撃つかキーンするかのいずれかが起きる場合の方が多い（両者の比率は 5:2）。Ｄｒ．ウォンがジオイド弾を試すのは、それなりのリスクを伴う勝負手であると言える。
+</ul>
+
+<BR><A NAME="REM-Geoid-planet"></A>
+<h4><A HREF="#Geoid-planet">能力カードのジオイド弾射撃チェック</A></h4>
+<ul>
+<li> ジオイド弾が発射される可能性と気絶する確率は等しい(6/36=　16.67%)
+<li> 能力カードを捨てる（発射or失神）までの平均ロール回数は３回である（注：拡張ルールを採用した場合はこの限りではない）
+</ul>
+
+<BR><A NAME="REM-Geoid-DrWon"></A>
+<h4><A HREF="#Geoid-DrWon">Ｄｒ．ウォンの亜空間フィールド使用チェック</A></h4>
+<ul>
+<li> 亜空間フィールドの連続成功確率は急速に減少する（２Ｄ：９以下ｎ回を参照）。例えば、４回連続でフィールド発生に成功する確率は 48.23% で５割以下となる。
+</ul>
+
+<BR><A NAME="REM-Geoid-planet"></A>
+<h4><A HREF="#Geoid-planet">能力カードの亜空間フィールド使用チェック</A></h4>
+<ul>
+<li> 亜空間フィールドが発生する確率と何も起きない確率は等しい(15/36= 41.67%)
+<li> フィールドが発生するか失神するかして能力カードを捨てるまでの平均ロール回数は1.71回であり、両者の比率は 5:2 である。
+</ul>
+
+<BR><A NAME="REM-The-Nike"></A>
+<h4><A HREF="#The-Nike">Ｓストロハイムのニケチェック</A></h4>
+<ul>
+<li> 失神するまでの平均チェック回数は１２であり十分大きいように見えるが、連続成功確率は、４回なら 70.61%、８回なら 49.85% という具合に指数関数的に減少する点に注意が必要である。ロックとの長期戦は避けるべき。
+</ul>
+
+<BR><A NAME="REM-1D-try"></A>
+<h4><A HREF="#1D-try">ナガトのサイコポッド／フランシス・レマのラフノールの鏡</A></h4>
+<ul>
+<li> 成功率は２Ｄで７以下１回を出す確率よりも大きい。よって、精神力チェックを要する防御・逃避や、能力カードの亜空間フィールドよりも確実である。
+<li> 連続成功確率は、２回(44.44%)、３回(29.63%)、４回(19.75%)、５回(13.17%)、６回(8.78%)である。
+</ul>
+
+<BR><BR>
+<HR>
+<DIV ALIGN=RIGHT>超人ロック戦略ブック制作委員会</DIV>
+</BODY>
+</HTML>
